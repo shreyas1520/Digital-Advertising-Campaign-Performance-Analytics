@@ -17,7 +17,7 @@ The analysis follows an end-to-end workflow from data preparation and validation
 - Generated **$284.16M in Total Revenue** across 10,000 campaign records.
 - Total Advertising Spend was **$43.46M**, resulting in **$240.70M in Total Profit** based on the project's KPI calculation.
 - **Google Ads generated the highest total revenue at approximately $97.85M** and the highest total profit at approximately $79.84M.
-- **TikTok recorded the highest average ROAS at 10.85**, followed by Facebook at 10.01.
+- **TikTok recorded the highest dashboard ROAS at 11.18**, followed by Facebook at 10.39.
 - **2,169 campaigns were loss-making**, representing **21.69%** of the dataset.
 - **Lead Generation** generated the highest campaign-objective revenue at approximately **$109.94M**.
 - The **25–34 age group** generated the highest audience revenue at approximately **$87.90M**.
@@ -27,7 +27,7 @@ The analysis follows an end-to-end workflow from data preparation and validation
 
 The analysis shows that **scale and advertising efficiency can differ across platforms**.
 
-Google Ads generated the highest revenue and profit, while TikTok achieved the highest average ROAS. Therefore, advertising performance should be evaluated using multiple KPIs such as **revenue, profit, advertising spend, ROAS, CPA, CTR, and conversion rate** rather than relying on a single metric.
+Google Ads generated the highest revenue and profit, while TikTok achieved the highest dashboard ROAS. Therefore, advertising performance should be evaluated using multiple KPIs such as **revenue, profit, advertising spend, ROAS, CPA, CTR, and conversion rate** rather than relying on a single metric.
 
 ---
 
@@ -133,7 +133,6 @@ Used to create reusable and dynamic marketing and financial KPIs that respond to
 Used as the final business intelligence layer to create interactive reporting and communicate analytical findings.
 
 ---
-
 
 ## Data Cleaning & Validation
 
@@ -278,6 +277,17 @@ Compares advertising performance across platforms.
 - CTR by Platform
 - Conversion Rate by Platform
 
+### Verified Platform ROAS from Dashboard
+
+| Platform | ROAS |
+|---|---:|
+| TikTok | **11.18** |
+| Facebook | **10.39** |
+| Instagram | **9.11** |
+| Twitter | **8.28** |
+| Google Ads | **5.43** |
+| LinkedIn | **3.30** |
+
 ### Business Focus
 
 Provides a comparative view of platform scale, engagement, conversion performance, and advertising efficiency.
@@ -323,6 +333,17 @@ Focuses on marketing profitability and financial efficiency.
 - ROI
 - ROAS
 
+### Dashboard KPIs
+
+| Metric | Dashboard Value |
+|---|---:|
+| Total Revenue | **$284.16M** |
+| Total Ad Spend | **$43.46M** |
+| Total Profit | **$240.70M** |
+| Profit Margin | **84.71%** |
+| ROI | **553.90%** |
+| ROAS | **6.54** |
+
 ### Key Analysis
 
 - Revenue, Ad Spend and Profit Trend
@@ -348,6 +369,17 @@ Analyzes digital engagement and user interaction.
 - Conversion Rate
 - Average Session Duration
 - Average Bounce Rate
+
+### Dashboard KPIs
+
+| Metric | Dashboard Value |
+|---|---:|
+| Total Impressions | **705M** |
+| Total Clicks | **15M** |
+| CTR | **2.16%** |
+| Conversion Rate | **4.30%** |
+| Average Session Duration | **100.96** |
+| Average Bounce Rate | **52.53%** |
 
 ### Key Analysis
 
@@ -407,6 +439,14 @@ Analyzes campaign performance across devices and operating systems.
 - Conversion Rate by Device Type
 - Revenue by Operating System
 - ROAS by Operating System
+
+### Dashboard Device KPIs
+
+| Device | Revenue | Conversion Rate |
+|---|---:|---:|
+| Desktop | **$176.99M** | **6.68%** |
+| Mobile | **$86.86M** | **2.56%** |
+| Tablet | **~$20M** | **3.93%** |
 
 ### Business Focus
 
@@ -545,11 +585,11 @@ However, Google Ads did not have the highest ROAS.
 
 ---
 
-## 2. TikTok Achieved the Highest Average ROAS
+## 2. TikTok Achieved the Highest Dashboard ROAS
 
-TikTok recorded the highest average ROAS at **10.85**, followed by Facebook at **10.01**.
+TikTok recorded the highest dashboard ROAS at **11.18**, followed by Facebook at **10.39**.
 
-This indicates stronger average advertising efficiency relative to spend for TikTok within the observed dataset.
+This indicates stronger observed average advertising efficiency relative to spend for TikTok within the dashboard data.
 
 However, the highest ROAS does not automatically mean that all advertising budget should be shifted to TikTok.
 
@@ -607,7 +647,7 @@ The analysis showed:
 |---|---|
 | Total Revenue | Google Ads |
 | Total Profit | Google Ads |
-| Average ROAS | TikTok |
+| Dashboard ROAS | TikTok |
 
 This demonstrates why marketing performance should be evaluated using a combination of **scale, profitability, and efficiency metrics** rather than a single KPI.
 
@@ -651,6 +691,7 @@ Further investigate differences across desktop, mobile, and tablet using convers
 - Revenue differences across audience groups, devices, or creative attributes represent observed associations and do not establish causality.
 - Campaign-level results should be evaluated alongside campaign volume, advertising spend, revenue, profit, and efficiency metrics.
 - Recommendations are intended as analytical decision support based on the available dataset.
+- The **11.18 TikTok ROAS** shown in the Channel Performance dashboard is the verified dashboard value used in this README.
 
 ---
 
@@ -681,5 +722,10 @@ The analysis combines:
 - Quantified business insights
 - Data-driven recommendations
 
-
 The overall objective is to demonstrate practical analytics skills while connecting technical analysis with **marketing performance, advertising efficiency, profitability, audience behavior, engagement, creative performance, and platform-level decision-making**.
+
+---
+
+# Author
+
+**Shreyas Kadam**
